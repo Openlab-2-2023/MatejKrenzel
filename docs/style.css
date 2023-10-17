@@ -73,16 +73,12 @@ p{
     
 }
 button{
-    color: rgb(255, 255, 255);
-    background-image:url(https://www.iconfinder.com/icons/3721672/instagram_icon) 
-    width: 80px;
-    height: 80px;
-    margin-top: 300px;
-    margin-left: 750px;
-    border: none;
-    cursor: pointer;
+    background-image: url(3721672_instagram_icon.png);
     background-size: cover;
-    background-position: center;
-    background-attachment: fixed
+    color: white;
+    padding: 20px;
+    border: none;
+    height: 85px;
+    width: 85px;
 }
     
