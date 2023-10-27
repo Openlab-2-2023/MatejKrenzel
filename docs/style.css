@@ -10,7 +10,7 @@ h1{
 }
 .navbar ul{
     list-style-type:none;
-    background-color: rgba(0,0,0,.7);
+    background-color: rgba(255, 255, 255, 0.7);
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -35,17 +35,10 @@ h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 500px;
     margin-right: 500px;
-    background-color: rgba(0,0,0,.7);
     font-size: bold;
     padding: 50px;
-    border-left: solid rgba(0,0,0,.7);
-    border-right: solid: rgba(0,0,0,.7);
-    border-style: none
-    : inline-block
-    
-    
-    
-    
+    margin-left: 40%;
+
 }
 img{
     height: 50px;
@@ -81,4 +74,133 @@ button{
     height: 85px;
     width: 85px;
 }
-    
+table {
+    justify-content: center;
+    align-content: center;
+    border-collapse: collapse;
+    border: 3px solid rgb(0, 0, 0);
+    width: 40%;
+    height: 80%;
+    margin-left: 30%;
+    margin-top: 10%;
+
+  }
+  
+  thead th:nth-child(1) {
+    width: 30%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 15%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 35%;
+  }
+  
+  td {
+    padding: 10px;
+  }
+  html {
+    font-family: "helvetica neue", helvetica, arial, sans-serif;
+  }
+  
+  thead th,
+  tfoot th {
+    font-family: "Rock Salt", cursive;
+  }
+  
+  th {
+    letter-spacing: 2px;
+  }
+  
+  td {
+    letter-spacing: 1px;
+  }
+  
+  tbody td {
+    text-align: center;
+  }
+  
+  tfoot th {
+    text-align: right;
+  }
+  thead,
+  tfoot {
+    background: url(leopardskin.jpg);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+  }
+  
+  thead th,
+  tfoot th,
+  tfoot td {
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.5)
+    );
+    border: 3px solid rgb(14, 13, 13);
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-google{
+    background: red;
+    color: white;
+  }
+  .fa-instagram{
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    color: white;
+  }
+
+
+.box {
+    background-color: #000000;
+    width: 500px;
+    height: 500px;
+    margin-left: 32%;
+  }
+  .container {
+    width: 200px;
+    height: 200px;
+    background-color: #0a0a23;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container img {
+    width: 100px;
+    height: 100px;
+}
+.container {
+    width: 200px;
+    height: 200px;
+    background-color: #0a0a23;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container img {
+    width: 100px;
+    height: 100px;
+}
