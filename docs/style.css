@@ -1,206 +1,278 @@
-body{
-    margin right: 20px;
-    margin left: 20px;
-
+*{
+    margin: 0;
+    padding: 0;
 }
-
-h1{
-    text-align: center;
-    text-decoration:color rgb(63, 43, 43) rgb(187, 223, 187) rgb(43, 43, 168) ;
+.header{
+min-height: 100vh;
+width: 100%;
+background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/erererer.jpg);
+background-position: center;
+background-size: cover;
+position: relative;
 }
-.navbar ul{
-    list-style-type:none;
-    background-color: rgba(255, 255, 255, 0.7);
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
-    text-align: center;
-   
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
 }
-.navbar a{
-    color: white;
-    text-decoration: none;
-    padding: 15px;
-    display: block;
-    text-align: center;
+nav img{
+    width: 150px;
 }
-.navbar a:hover{
-    background-color: rgb(175, 50, 5);
-}
-.navbar li{
-    float: left;
-}
-
-.text-zivo{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-left: 500px;
-    margin-right: 500px;
-    font-size: bold;
-    padding: 50px;
-    margin-left: 40%;
-
-}
-img{
-    height: 50px;
-    
-}
-background-image{
-    height: 50%;
-}
-p{
-    color: white;
-}
-.text-nadpis{
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: xx-large;
-    background-color: rgba(0,0,0,.7);
-    font-style: italic;
-    text-decoration-thickness: 50px;
-    padding: 50px;
-    border-left: solid rgba(0,0,0,.7);
-    border-right: solid: rgba(0,0,0,.7);
-    border-style: none;
-    margin-left: 500px;
-    margin-right: 500px;
-    
-}
-button{
-    background-image: url(3721672_instagram_icon.png);
-    background-size: cover;
-    color: white;
-    padding: 20px;
-    border: none;
-    height: 85px;
-    width: 85px;
-}
-table {
-    justify-content: center;
-    align-content: center;
-    border-collapse: collapse;
-    border: 3px solid rgb(0, 0, 0);
-    width: 40%;
-    height: 80%;
-    margin-left: 30%;
-    margin-top: 10%;
-
-  }
-  
-  thead th:nth-child(1) {
-    width: 30%;
-  }
-  
-  thead th:nth-child(2) {
-    width: 20%;
-  }
-  
-  thead th:nth-child(3) {
-    width: 15%;
-  }
-  
-  thead th:nth-child(4) {
-    width: 35%;
-  }
-  
-  td {
-    padding: 10px;
-  }
-  html {
-    font-family: "helvetica neue", helvetica, arial, sans-serif;
-  }
-  
-  thead th,
-  tfoot th {
-    font-family: "Rock Salt", cursive;
-  }
-  
-  th {
-    letter-spacing: 2px;
-  }
-  
-  td {
-    letter-spacing: 1px;
-  }
-  
-  tbody td {
-    text-align: center;
-  }
-  
-  tfoot th {
+.nav-links{
+    flex: 1;
     text-align: right;
-  }
-  thead,
-  tfoot {
-    background: url(leopardskin.jpg);
-    color: white;
-    text-shadow: 1px 1px 1px black;
-  }
-  
-  thead th,
-  tfoot th,
-  tfoot td {
-    background: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.1),
-      rgba(0, 0, 0, 0.5)
-    );
-    border: 3px solid rgb(14, 13, 13);
-  }
-  .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding:  8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: rgba(255, 255, 255, 0.733);
     text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: green ;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+width: 90%;
+position: absolute;
+color: #fff;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+
+
+}
+.text-box h1{
+    font-size: 62px;
+}
+.text-box p{
+    margin: 10px;
+    font-size: 13px;
+    color: #fff;
+}
+
+.zistivac-btn{
+    display: inline block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.zistivac-btn:hover{
+    border: 1px solid green;
+    background: green;
+    transition: 1s;
+}
+
+/*----- o-mne -----*/
+.o-mne{
+
+width: 80%;
+margin: auto;
+text-align: center;
+padding-top: 100px;
+
+}
+.o-mne h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+.o-mne  p{
+    color: rgb(2, 2, 2);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.jopjop{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.row{
+    flex-basis: 31%;
+    background: rgba(118, 209, 130, 0.774);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20 12px;
+    box-sizing: border-box;
+    transition: 0.4s;
+    
+}
+h3{
+    text-align: center;
+}
+.row:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
+}
+@media(max-width: 800px){
+    .jopjop{
+        flex-direction: column;
+    }
+}
+
+.nvm{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+.nvmxd{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    filter: brightness(80%);
+    
+
+    
+}
+.nvmxd img{
+width: 100%;
+display: block;
+}
+.krasa{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5;
+
+}
+.krasa:hover{
+    background: rgba(10, 10, 10, 0.774);
+
+}
+.krasa h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+bottom: 0;
+left: 50%;
+transform: translateX(-50%);
+    font-size: 23px;
+    position: absolute;
+    transition: 0.5s;
+}
+.krasa:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+html { scroll-behavior: smooth;}
+
+/*----- hodnotenie -----*/
+
+.hodnotenie{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+
+}
+.hodnoteniex{
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: lightgreen;
+    padding: 25px;
+    cursor: pointer;
+
+}
+.hodnoteniex img{
+    height: 40px;
+    margin: left 5px;
+    margin-right: 30px;
     border-radius: 50%;
-  }
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
-  .fa-google{
-    background: red;
-    color: white;
-  }
-  .fa-instagram{
-    background: #f09433; 
-    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
-    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
-    color: white;
-  }
-
-
-.box {
-    background-color: #000000;
-    width: 500px;
-    height: 500px;
-    margin-left: 32%;
-  }
-  .container {
-    width: 200px;
-    height: 200px;
-    background-color: #0a0a23;
+}
+.hodnoteniej{
+margin-top: 10%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.hodnotenied{
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: lightgreen;
+    padding: 25px;
+    cursor: pointer;
 }
 
-.container img {
-    width: 100px;
-    height: 100px;
+
+
+/*----- kontakt -----*/
+
+
+
+.contact{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/0xLm17\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
 }
-.container {
-    width: 200px;
-    height: 200px;
-    background-color: #0a0a23;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.contact h1{
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
 }
 
-.container img {
-    width: 100px;
-    height: 100px;
+
+
+
+.posledny{
+width: 100%;
+text-align: center;
+padding: 30px 0;
+
+}
+.posledny h4{
+    color: #000000;
+    margin-bottom: 25px;
+    padding: 0;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.fa{
+    color: rgb(82, 201, 36);
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+.fa-heart{
+    color: rgb(82, 201, 36);
+}
+.homik img{
+    background-color: tr;
 }
