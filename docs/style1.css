@@ -57,8 +57,8 @@ button{
 
 }
 button:hover{
-    background: rgba(0, 0, 0, 0.7);
-    transition: 1s;
+    background: rgba(0, 0, 0, 0.6);
+    transition: 0.7s;
 }
 input:focus~label,
 input:valid~label,
