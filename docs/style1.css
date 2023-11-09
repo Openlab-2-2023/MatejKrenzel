@@ -7,7 +7,7 @@
 .first{
     width: 100%;
     height: 100vh;
-    background-image:  url(abstract-mixed-pastel-colors-background-free-vector.jpg) ;
+    background-image: linear-gradient(rgba(1, 2, 7, 0.7),rgba(2, 4, 12, 0.7)),  url(gradient-mesh-with-a-mix-of-light-green-dark-green-and-yellow-colors-abstract-backgrounds-for-pamphlets-wallpapers-posters-landing-pages-banners-and-virtual-backgrounds-free-vector.jpg) ;
     background-position: center;
     display: flex;
     background-size: cover;
