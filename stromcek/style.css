@@ -1,0 +1,191 @@
+*{
+
+
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    
+  }
+  .container > div {
+    background-color: #f1f1f1;
+    margin-top: 200px;
+    background-color: blue;
+
+    font-size: 30px;
+    border-radius: 25%;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 80vh
+    
+    
+
+}
+.spodok{
+  height: 150px;
+  width: 50px;
+  background-color: brown;
+  position: relative;
+  top: 64.4vh;
+left: 45vh;
+
+}
+.zelena1{
+  border-bottom: 150px solid rgb(21, 51, 21);
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  bottom: 15vh;
+  position: relative;
+  right: 19vh;
+ 
+  height: 0px;
+  width: 225px;
+}
+.zelena2{
+  border-bottom: 150px solid rgb(34, 83, 34);
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  bottom: 15vh;
+  position: relative;
+  right: 8vh;
+ 
+  height: 0px;
+  width: 225px;
+}
+.zelena3{
+	width: 0;
+  position: relative;
+  bottom: 20.8vh;
+  right: 4vh;
+	height: 0;
+	border-left: 150px solid transparent;
+	border-right: 150px solid transparent;
+	border-bottom: 200px solid rgb(44, 105, 44);
+}
+.checked{
+  color: lightyellow;
+
+
+}
+.hviezda{
+  --star-color:orange;
+  margin:1em auto;
+  font-size:2em;
+  bottom: 42vh;
+  right: 6vh;
+  position: relative;
+  display: block;
+  width: 0px;
+  height: 0px;
+  border-right: 1em solid transparent;
+  border-bottom: 0.7em solid var(--star-color);
+  border-left: 1em solid transparent;
+  transform: rotate(35deg);
+
+}
+
+.hviezda::before{border-bottom: 0.8em solid var(--star-color);
+border-left: 0.3em solid transparent;
+border-right: 0.3em solid transparent;
+position: absolute;
+height: 0;
+width: 0;
+top: -0.45em;
+left: -0.65em;
+display: block;
+content:"";
+transform: rotate(-35deg);}
+
+.hviezda:after {
+  position: absolute;
+  display: block;
+  top: 0.03em;
+  left: -1.05em;
+  width: 0;
+  height: 0;
+  border-right: 1em solid transparent;
+  border-bottom: 0.7em solid var(--star-color);
+  border-left: 1em solid transparent;
+  transform: rotate(-70deg);
+  content:"";
+ }
+ .gula1{
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  border-radius: 50%;
+  position: relative;
+  top:20vh ;
+  
+ }
+ .gula2{
+  height: 50px;
+  width: 50px;
+  background-color: navy;
+  border-radius: 50%;
+  position: relative;
+  top: 2vh;
+  right: 4vh;
+ }
+ .gula3{
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  border-radius: 50%;
+  position: relative;
+  top: 35vh;
+  right: 10vh;
+ }
+ .gula4{
+  height: 50px;
+  width: 50px;
+  background-color: yellow;
+  border-radius: 50%;
+  position: relative;
+  top: 15vh;
+  right: 9vh;
+
+}
+.gula6{
+  height: 50px;
+  width: 50px;
+  background-color: navy;
+  border-radius: 50%;
+  position: relative;
+  top: 9vh;
+left: 3vh;
+}
+.gula5{
+  height: 50px;
+  width: 50px;
+  background-color: yellow;
+  border-radius: 50%;
+  position: relative;
+  top: 20vh;
+left: 12vh;
+}
+.gulax1{  height: 30px;
+  width: 30px;
+  background-color:  rgba(221, 207, 207, 0.7);
+  border-radius: 50%;
+  position: relative;
+  bottom:6vh;
+left: 12vh;}
+.gulax2{  height: 30px;
+
+left: 12vh;}
+.gulax5{  height: 30px;
+  width: 30px;
+  background-color:rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+  position: relative;
+  bottom:46vh;
+  right: 2.5vh;}
